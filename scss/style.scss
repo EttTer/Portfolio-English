@@ -409,7 +409,7 @@ img {
 
 /*Kontakt*/
 .Contact {
-  width: 800px;
+  width: 400px;
   height: 250px;
   margin: 0 auto 50px auto;
 }
@@ -426,7 +426,7 @@ img {
     font-size: 92px;
   }
 
-  .Contact {
+  .Contact { width: 800px;
     margin: 100px auto 200px auto;
   }
 }
@@ -485,6 +485,6 @@ a:hover {
 }
 
 //Když tohle zakomentuju a posunu {{ v .njk, pak stejné jako další, ale graficky divné
-.Header__menu__link {
-  padding: $space/2;
-}
+//.Header__menu__link {
+//  padding: $space/2;
+//}
