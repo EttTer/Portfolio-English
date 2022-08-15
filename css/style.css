@@ -74,17 +74,14 @@ img {
   .Header__menu {
     max-width: 100%;
   }
-
   .Header__menu__list {
     justify-content: flex-end;
   }
-
   .Header__menu__item {
     flex: 1 1 16.6666666667;
     text-align: end;
     padding: 15px 15px 5px 15px;
   }
-
   body {
     font-size: 18px;
   }
@@ -104,11 +101,9 @@ img {
   .Portfolio__subtitle {
     font-size: 40px;
   }
-
   .Portfolio__title {
     font-size: 92px;
   }
-
   .Portfolio {
     margin: 100px auto 200px auto;
   }
@@ -141,17 +136,14 @@ img {
   .Footer__menu {
     max-width: 100%;
   }
-
   .Footer__menu__list {
     justify-content: flex-end;
   }
-
   .Footer__menu__item {
     flex: 1 1 16.6666666667;
     text-align: end;
     padding: 15px 15px 5px 15px;
   }
-
   body {
     font-size: 18px;
   }
@@ -189,7 +181,6 @@ img {
     display: flex;
     align-items: center;
   }
-
   .Tereza__text {
     margin-left: 30px;
     margin-right: 30px;
@@ -225,11 +216,9 @@ img {
   body {
     font-size: 18px;
   }
-
   .Education__second {
     max-width: 100%;
   }
-
   .Education__container {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -282,11 +271,9 @@ img {
   body {
     font-size: 18px;
   }
-
   .Education__second {
     max-width: 100%;
   }
-
   .Work__upper__container,
 .Work__lower__container {
     display: grid;
@@ -331,18 +318,15 @@ img {
     display: flex;
     align-items: center;
   }
-
   .Skills__menu {
     margin-left: 30px;
     text-align: justify;
     flex: 1;
   }
-
   .Skills__picture {
     flex: 1;
     margin: 0;
   }
-
   .Skills__picture___item {
     -o-object-fit: cover;
        object-fit: cover;
@@ -351,7 +335,7 @@ img {
 }
 /*Kontakt*/
 .Contact {
-  width: 800px;
+  width: 400px;
   height: 250px;
   margin: 0 auto 50px auto;
 }
@@ -361,12 +345,11 @@ img {
     font-size: 40px;
     text-align: center;
   }
-
   .Contact__title {
     font-size: 92px;
   }
-
   .Contact {
+    width: 800px;
     margin: 100px auto 200px auto;
   }
 }
@@ -400,7 +383,6 @@ img {
 a {
   text-decoration: none;
   color: rgb(255, 255, 255);
-  transform: scale(5);
 }
 
 a:hover {
@@ -409,8 +391,4 @@ a:hover {
 
 .Header__menu__item--active a {
   color: #adb5bd;
-}
-
-.Header__menu__link {
-  padding: 7.5px;
 }/*# sourceMappingURL=style.css.map */
